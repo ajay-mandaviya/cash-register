@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+section {
+  background-color: antiquewhite;
+  color: grey;
+  font-family: "Open Sans", sans-serif;
+  width: 60%;
+  padding: 2rem;
+  margin: 75px auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px grey;
+}
+
+h1 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.error {
+  text-align: center;
+  margin: 20px;
+}
+
+input {
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 0.7rem 2rem;
+  border: 2px solid grey;
+  border-radius: 15px;
+  outline: none;
+}
+
+.given-cash-label {
+  display: none;
+}
+
+.given-cash {
+  display: none;
+}
+
+.check-btn {
+  display: block;
+  margin: auto;
+  padding: 1rem 3rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.check-btn:hover {
+  background-color: #e1e1e1;
+}
+
+.return-exchange {
+  display: none;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  background-color: #fff;
+  color: #000;
+}
+
+th,
+td {
+  padding: 0.2rem;
+  word-wrap: break-word;
+}
+
+@media screen and (max-width: 800px) {
+  section {
+    width: 90%;
+  }
+  input {
+    width: 50%;
+  }
+}
